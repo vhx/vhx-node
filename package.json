@@ -1,0 +1,35 @@
+{
+  "name": "vhx",
+  "version": "0.1.0",
+  "description": "VHX API wrapper",
+  "keywords": [
+    "vhx",
+    "video",
+    "api"
+  ],
+  "homepage": "https://github.com/vhx/vhx-node",
+  "author": "VHX",
+  "contributors": [
+    "Scott Robertson <scott@stripe.com>",
+    "Kevin Sheurs <kevin@stripe.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vhx/vhx-node.git"
+  },
+  "bugs:": "https://github.com/vhx/vhx-node/issues",
+  "engines": {
+    "node": ">= v0.10.0"
+  },
+  "main": "lib/vhx.js",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "bluebird": "^2.9.6",
+    "qs": "^2.4.1",
+    "lodash": "^3.1.0"
+  },
+  "license": "MIT",
+  "scripts": {
+  }
+}
