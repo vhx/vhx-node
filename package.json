@@ -25,6 +25,7 @@
   "devDependencies": {
   },
   "dependencies": {
+    "request": "2.x",
     "bluebird": "^2.9.6",
     "qs": "^2.4.1",
     "lodash": "^3.1.0"
