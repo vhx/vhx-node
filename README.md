@@ -20,6 +20,10 @@ var vhx = require('vhx')(' your VHX API key ');
 Every resource method has two argmuents. The first argument is an options object and the second, an optional callback:
 
 ```js
+
+// vhx.{resource}.{method}(options, callback);
+
+// example customer create
 vhx.customers.create({
   email: 'customer@email.com',
   name: 'First Last',
@@ -38,16 +42,16 @@ vhx.customers.create({
   * [`retrieve`](http://dev.vhx.tv/docs/api?node#retrieve_customer)
   * [`list`](http://dev.vhx.tv/docs/api?node#list_customers)
 
- authorizations
+authorizations
   * [`create`](http://dev.vhx.tv/docs/api?node#create_authorization)
 
- videos
+videos
   * [`create`](http://dev.vhx.tv/docs/api?node#create_customer)
   * [`update`](http://dev.vhx.tv/docs/api?node#update_customer)
   * [`retrieve`](http://dev.vhx.tv/docs/api?node#retrieve_customer)
   * [`list`](http://dev.vhx.tv/docs/api?node#list_customers)
 
- collections
+collections
   * [`create`](http://dev.vhx.tv/docs/api?node#create_collection)
   * [`update`](http://dev.vhx.tv/docs/api?node#update_collection)
   * [`retrieve`](http://dev.vhx.tv/docs/api?node#retrieve_collection)
