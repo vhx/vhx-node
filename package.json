@@ -10,8 +10,8 @@
   "homepage": "https://github.com/vhx/vhx-node",
   "author": "VHX",
   "contributors": [
-    "Scott Robertson <scott@stripe.com>",
-    "Kevin Sheurs <kevin@stripe.com>"
+    "Scott Robertson <scott@vhx.tv>",
+    "Kevin Sheurs <kevin@vhx.tv>"
   ],
   "repository": {
     "type": "git",
@@ -25,12 +25,7 @@
   "devDependencies": {
   },
   "dependencies": {
-    "request": "2.x",
-    "bluebird": "^2.9.6",
-    "qs": "^2.4.1",
-    "lodash": "^3.1.0"
+    "request": "2.x"
   },
-  "license": "MIT",
-  "scripts": {
-  }
+  "license": "MIT"
 }
