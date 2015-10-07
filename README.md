@@ -1,5 +1,7 @@
 # VHX Node.js API Bindings
 
+You can sign up for a VHX account at https://vhx.tv.
+
 ### Installation
 
 `npm install vhx`
@@ -9,15 +11,15 @@
 Documentation is available at http://dev.vhx.tv/docs/api/node.
 Full API reference is available at http://dev.vhx.tv/docs/api?node.
 
-### Overview
+## Getting Started
 
 Every resource is accessed via your `vhx` instance:
 
 ```js
-var vhx = require('vhx')(' your VHX API key ');
+var vhx = require('vhx')('your VHX API key');
 ```
 
-Every resource method has two argmuents. The first argument is an options object and the second, an optional callback:
+Every resource method has two arguments. The first argument is an options object and the second, an optional callback:
 
 ```js
 
@@ -56,3 +58,4 @@ collections
   * [`update`](http://dev.vhx.tv/docs/api?node#update_collection)
   * [`retrieve`](http://dev.vhx.tv/docs/api?node#retrieve_collection)
   * [`list`](http://dev.vhx.tv/docs/api?node#list_collections)
+  * [`items`](http://dev.vhx.tv/docs/api?node#list_collection_items)
