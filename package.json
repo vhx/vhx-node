@@ -1,7 +1,7 @@
 {
   "name": "vhx",
   "version": "0.1.0",
-  "description": "VHX API wrapper",
+  "description": "VHX Node API wrapper",
   "keywords": [
     "vhx",
     "video",
