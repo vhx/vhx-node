@@ -1,4 +1,4 @@
-# VHX Node.js API Bindings
+# VHX Node.js API Client
 
 You can sign up for a VHX account at https://vhx.tv.
 
@@ -13,7 +13,7 @@ Full API reference is available at http://dev.vhx.tv/docs/api?node.
 
 ## Getting Started
 
-Every resource is accessed via your `vhx` instance:
+Before requesting your first resource, you must setup your instance of the VHX Client:
 
 ```js
 var vhx = require('vhx')('your VHX API key');
@@ -29,7 +29,7 @@ Every resource method has two arguments. The first argument is an options object
 vhx.customers.create({
   email: 'customer@email.com',
   name: 'First Last',
-  subscription: customer.subscription
+  subscription: 'https://api.vhx.tv/subscriptions/1'
 }, function(err, customer){
   err; // error is false if no error occurred
   customer; // the created customer object
