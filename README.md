@@ -1,4 +1,5 @@
-# VHX Node.js API Client
+# VHX Node.js API Client (BETA)
+>>>>>>> a few tweaks to the node docs
 
 You can sign up for a VHX account at https://vhx.tv.
 
@@ -8,10 +9,10 @@ You can sign up for a VHX account at https://vhx.tv.
 
 ### Documentation
 
-Documentation is available at http://dev.vhx.tv/docs/api/node.
-Full API reference is available at http://dev.vhx.tv/docs/api?node.
+Documentation, including a step-by-step tutorial is available on the [VHX Developer Docs ](http://dev.vhx.tv/api?node) site.
+For Full API reference [go here](http://dev.vhx.tv/docs/api?node).
 
-## Getting Started
+### Getting Started
 
 Before requesting your first resource, you must setup your instance of the VHX Client:
 
@@ -22,8 +23,6 @@ var vhx = require('vhx')('your VHX API key');
 Every resource method has two arguments. The first argument is an options object and the second, an optional callback:
 
 ```js
-
-// vhx.{resource}.{method}(options, callback);
 
 // example customer create
 vhx.customers.create({
@@ -38,6 +37,12 @@ vhx.customers.create({
 
 ### Resources & methods
 
+videos
+  * [`create`](http://dev.vhx.tv/docs/api?node#create_customer)
+  * [`update`](http://dev.vhx.tv/docs/api?node#update_customer)
+  * [`retrieve`](http://dev.vhx.tv/docs/api?node#retrieve_customer)
+  * [`list`](http://dev.vhx.tv/docs/api?node#list_customers)
+
  customers
   * [`create`](http://dev.vhx.tv/docs/api?node#create_customer)
   * [`update`](http://dev.vhx.tv/docs/api?node#update_customer)
@@ -46,12 +51,6 @@ vhx.customers.create({
 
 authorizations
   * [`create`](http://dev.vhx.tv/docs/api?node#create_authorization)
-
-videos
-  * [`create`](http://dev.vhx.tv/docs/api?node#create_customer)
-  * [`update`](http://dev.vhx.tv/docs/api?node#update_customer)
-  * [`retrieve`](http://dev.vhx.tv/docs/api?node#retrieve_customer)
-  * [`list`](http://dev.vhx.tv/docs/api?node#list_customers)
 
 collections
   * [`create`](http://dev.vhx.tv/docs/api?node#create_collection)
