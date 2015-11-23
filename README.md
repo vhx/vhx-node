@@ -1,5 +1,4 @@
 # VHX Node.js API Client (BETA)
->>>>>>> a few tweaks to the node docs
 
 You can sign up for a VHX account at https://vhx.tv.
 
