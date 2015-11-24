@@ -4,7 +4,7 @@ The VHX API is currently Private Beta. You can request an API key by emailing ap
 
 ### Installation
 
-`npm install vhx`
+`npm install vhx@1.0.0-beta`
 
 ### Documentation
 
