@@ -1,6 +1,6 @@
 # VHX Node.js API Client (BETA)
 
-You can sign up for a VHX account at https://vhx.tv.
+The VHX API is currently Private Beta. You can request an API key by emailing api@vhx.tv.
 
 ### Installation
 
