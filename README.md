@@ -4,7 +4,7 @@ The VHX API is currently Private Beta. You can request an API key by emailing ap
 
 ### Installation
 
-`npm install vhx@1.0.0-beta`
+`npm install vhx@1.0.0-beta.2`
 
 ### Documentation
 
@@ -37,23 +37,21 @@ vhx.customers.create({
 ### Resources & methods
 
 videos
-  * [`create`](http://dev.vhx.tv/docs/api?node#create_customer)
-  * [`update`](http://dev.vhx.tv/docs/api?node#update_customer)
-  * [`retrieve`](http://dev.vhx.tv/docs/api?node#retrieve_customer)
-  * [`list`](http://dev.vhx.tv/docs/api?node#list_customers)
+  * [`create`](http://dev.vhx.tv/docs/api/?node#videos-create)
+  * [`retrieve`](http://dev.vhx.tv/docs/api?node#videos-retrieve)
+  * [`list`](http://dev.vhx.tv/docs/api?node#videos-list)
 
 customers
-  * [`create`](http://dev.vhx.tv/docs/api?node#create_customer)
-  * [`update`](http://dev.vhx.tv/docs/api?node#update_customer)
-  * [`retrieve`](http://dev.vhx.tv/docs/api?node#retrieve_customer)
-  * [`list`](http://dev.vhx.tv/docs/api?node#list_customers)
+  * [`create`](http://dev.vhx.tv/docs/api/?node#customer-create)
+  * [`retrieve`](http://dev.vhx.tv/docs/api/?node#customer-retrieve)
+  * [`list`](http://dev.vhx.tv/docs/api/?node#customer-list)
 
 authorizations
-  * [`create`](http://dev.vhx.tv/docs/api?node#create_authorization)
+  * [`create`](http://dev.vhx.tv/docs/api/?node#authorizations-create)
 
 collections
-  * [`create`](http://dev.vhx.tv/docs/api?node#create_collection)
-  * [`update`](http://dev.vhx.tv/docs/api?node#update_collection)
-  * [`retrieve`](http://dev.vhx.tv/docs/api?node#retrieve_collection)
-  * [`list`](http://dev.vhx.tv/docs/api?node#list_collections)
-  * [`items`](http://dev.vhx.tv/docs/api?node#list_collection_items)
+  * [`create`](http://dev.vhx.tv/docs/api?node#collections-create)
+  * [`update`](http://dev.vhx.tv/docs/api?node#collections-update)
+  * [`retrieve`](http://dev.vhx.tv/docs/api?node#collections-retrieve)
+  * [`list`](http://dev.vhx.tv/docs/api?node#collections-list)
+  * [`items`](http://dev.vhx.tv/docs/api?node#collections-items)
