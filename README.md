@@ -26,8 +26,7 @@ Every resource method has two arguments. The first argument is an options object
 // example customer create
 vhx.customers.create({
   email: 'customer@email.com',
-  name: 'First Last',
-  subscription: 'https://api.vhx.tv/subscriptions/1'
+  name: 'First Last'
 }, function(err, customer){
   err; // error is false if no error occurred
   customer; // the created customer object
