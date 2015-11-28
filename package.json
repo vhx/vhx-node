@@ -1,7 +1,7 @@
 {
   "name": "vhx",
-  "version": "1.0.0-beta.3",
-  "description": "VHX Node API Wrapper",
+  "version": "1.0.0-beta.4",
+  "description": "VHX Node.js API Client",
   "keywords": [
     "vhx",
     "video",
@@ -22,8 +22,7 @@
     "node": ">= v0.10.0"
   },
   "main": "lib/vhx.js",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "request": "2.x"
   },

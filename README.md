@@ -4,7 +4,7 @@ The VHX API is currently Private Beta. You can request an API key by emailing ap
 
 ### Installation
 
-`npm install vhx@1.0.0-beta.3`
+`npm install vhx@1.0.0-beta.4`
 
 ### Documentation
 
@@ -26,8 +26,7 @@ Every resource method has two arguments. The first argument is an options object
 // example customer create
 vhx.customers.create({
   email: 'customer@email.com',
-  name: 'First Last',
-  subscription: 'https://api.vhx.tv/subscriptions/1'
+  name: 'First Last'
 }, function(err, customer){
   err; // error is false if no error occurred
   customer; // the created customer object
