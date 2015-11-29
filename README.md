@@ -1,10 +1,10 @@
-# VHX Node.js API Client (BETA)
+# VHX Node.js API Client
 
 The VHX API is currently Private Beta. You can request an API key by emailing api@vhx.tv.
 
 ### Installation
 
-`npm install vhx@1.0.0-beta.4`
+`npm install vhx`
 
 ### Documentation
 
