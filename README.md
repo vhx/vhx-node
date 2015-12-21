@@ -39,6 +39,7 @@ videos
   * [`create`](http://dev.vhx.tv/docs/api/?node#videos-create)
   * [`retrieve`](http://dev.vhx.tv/docs/api?node#videos-retrieve)
   * [`list`](http://dev.vhx.tv/docs/api?node#videos-list)
+  * [`files`](http://dev.vhx.tv/docs/api/?node#videos-list-files)
 
 customers
   * [`create`](http://dev.vhx.tv/docs/api/?node#customer-create)
