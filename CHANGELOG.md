@@ -2,6 +2,7 @@
 **2015-12-22**
 
 * Add methods for products endpoint
+* Fix readme links
 
 ### 1.0.2
 **2015-12-21**
