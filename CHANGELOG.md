@@ -1,8 +1,13 @@
+### 1.1.0
+**2015-12-22**
+
+* Add methods for products endpoint
+
 ### 1.0.2
 **2015-12-21**
 
 * Add method for listing video resource files method
-* Add changelog
+* Add change log
 
 ### 1.0.1
 **2015-12-15**
