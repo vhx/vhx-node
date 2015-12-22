@@ -8,8 +8,8 @@ The VHX API is currently Private Beta. You can request an API key by emailing ap
 
 ### Documentation
 
-Documentation, including a step-by-step tutorial is available on the [VHX Developer Docs ](http://dev.vhx.tv/api?node) site.
-For Full API reference [go here](http://dev.vhx.tv/docs/api?node).
+Documentation, including a step-by-step tutorial is available on the [VHX Developer Docs ](http://dev.vhx.tv/api?javascript) site.
+For Full API reference [go here](http://dev.vhx.tv/docs/api?javascript).
 
 ### Getting Started
 
@@ -35,23 +35,27 @@ vhx.customers.create({
 
 ### Resources & methods
 
-videos
-  * [`create`](http://dev.vhx.tv/docs/api/?node#videos-create)
-  * [`retrieve`](http://dev.vhx.tv/docs/api?node#videos-retrieve)
-  * [`list`](http://dev.vhx.tv/docs/api?node#videos-list)
-  * [`files`](http://dev.vhx.tv/docs/api/?node#videos-list-files)
+products
+  * [`retrieve`](http://dev.vhx.tv/docs/api/?javascript#product-retrieve)
+  * [`all`](http://dev.vhx.tv/docs/api/?javascript#product-list)
 
 customers
-  * [`create`](http://dev.vhx.tv/docs/api/?node#customer-create)
-  * [`retrieve`](http://dev.vhx.tv/docs/api/?node#customer-retrieve)
-  * [`list`](http://dev.vhx.tv/docs/api/?node#customer-list)
+  * [`create`](http://dev.vhx.tv/docs/api/?javascript#customer-create)
+  * [`retrieve`](http://dev.vhx.tv/docs/api/?javascript#customer-retrieve)
+  * [`list`](http://dev.vhx.tv/docs/api/?javascript#customer-list)
 
-authorizations
-  * [`create`](http://dev.vhx.tv/docs/api/?node#authorizations-create)
+videos
+  * [`create`](http://dev.vhx.tv/docs/api/?javascript#videos-create)
+  * [`retrieve`](http://dev.vhx.tv/docs/api?javascript#videos-get)
+  * [`list`](http://dev.vhx.tv/docs/api?javascript#videos-list)
+  * [`files`](http://dev.vhx.tv/docs/api/?javascript#videos-list-files)
 
 collections
-  * [`create`](http://dev.vhx.tv/docs/api?node#collections-create)
-  * [`update`](http://dev.vhx.tv/docs/api?node#collections-update)
-  * [`retrieve`](http://dev.vhx.tv/docs/api?node#collections-retrieve)
-  * [`list`](http://dev.vhx.tv/docs/api?node#collections-list)
-  * [`items`](http://dev.vhx.tv/docs/api?node#collections-items)
+  * [`create`](http://dev.vhx.tv/docs/api?javascript#collections-create)
+  * [`update`](http://dev.vhx.tv/docs/api?javascript#collections-update)
+  * [`retrieve`](http://dev.vhx.tv/docs/api?javascript#collections-retrieve)
+  * [`list`](http://dev.vhx.tv/docs/api?javascript#collections-list)
+  * [`items`](http://dev.vhx.tv/docs/api?javascript#collection-items-list)
+
+authorizations
+  * [`create`](http://dev.vhx.tv/docs/api/?javascript#authorizations-create)
