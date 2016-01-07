@@ -1,3 +1,9 @@
+### 1.1.2
+**2015-01-07**
+
+* Fix bug with collection items request
+* Allow for both id as stand alone param, and id as part of options object
+
 ### 1.1.1
 **2015-12-22**
 
