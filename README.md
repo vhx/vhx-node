@@ -43,6 +43,7 @@ customers
   * [`create`](http://dev.vhx.tv/docs/api/?javascript#customer-create)
   * [`retrieve`](http://dev.vhx.tv/docs/api/?javascript#customer-retrieve)
   * [`list`](http://dev.vhx.tv/docs/api/?javascript#customer-list)
+  * [`del`](http://dev.vhx.tv/docs/api/?javascript#customer-delete)
 
 videos
   * [`create`](http://dev.vhx.tv/docs/api/?javascript#videos-create)

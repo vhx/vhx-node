@@ -1,3 +1,10 @@
+### 1.2.0
+**2016-01-08**
+
+* Add customers `del` method for deleting customers
+* Add `listItems` (collections) and `listFiles` (videos) methods
+* Fix bug introduced from typo in 1.1.2
+
 ### 1.1.2
 **2016-01-07**
 
