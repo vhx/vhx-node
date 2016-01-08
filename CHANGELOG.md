@@ -1,5 +1,5 @@
 ### 1.2.0
-**2016-01-07**
+**2016-01-08**
 
 * Add customers `del` method for deleting customers
 * Add `listItems` (collections) and `listFiles` (videos) methods
