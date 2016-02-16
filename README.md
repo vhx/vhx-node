@@ -1,6 +1,6 @@
 # VHX Node.js API Client
 
-The VHX API is currently Private Beta. You can request an API key by emailing api@vhx.tv.
+API applications can be created in the VHX admin or by emailing [api@vhx.tv](mailto:api@vhx.tv)
 
 ### Installation
 
