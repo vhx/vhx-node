@@ -1,6 +1,6 @@
 # VHX Node.js API Client
 
-API applications can be created in the VHX admin or by emailing [api@vhx.tv](mailto:api@vhx.tv)
+API applications can be created in the [https://www.vhx.tv/admin/platforms](VHX admin) or by emailing [api@vhx.tv](mailto:api@vhx.tv)
 
 ### Installation
 
