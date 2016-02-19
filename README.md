@@ -19,7 +19,7 @@ Before requesting your first resource, you must setup your instance of the VHX C
 var vhx = require('vhx')('your VHX API key');
 ```
 
-Every resource method has two arguments. The first argument is an options object and the second, an optional callback:
+Every resource method has two arguments. The first argument is an options object or identifier and the second, an optional callback:
 
 ```js
 
@@ -28,8 +28,8 @@ vhx.customers.create({
   email: 'customer@email.com',
   name: 'First Last'
 }, function(err, customer){
-  err; // error is false if no error occurred
-  customer; // the created customer object
+  // err, = error is false if no error occurred
+  // customer = the created customer object
 });
 ```
 
@@ -45,6 +45,8 @@ customers
   * [`update`](http://dev.vhx.tv/docs/api/?javascript#customer-update)
   * [`all`](http://dev.vhx.tv/docs/api/?javascript#customer-list)
   * [`del`](http://dev.vhx.tv/docs/api/?javascript#customer-delete)
+  * [`addProduct`](http://dev.vhx.tv/docs/api/?javascript#customer-add-product)
+  * [`removeProduct`](http://dev.vhx.tv/docs/api/?javascript#customer-remove-product)
 
 videos
   * [`create`](http://dev.vhx.tv/docs/api/?javascript#videos-create)
