@@ -1,3 +1,8 @@
+### 1.5.0
+**2016-06-02**
+
+* Add analytics resources with `report` method
+
 ### 1.4.0
 **2016-02-18**
 

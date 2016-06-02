@@ -63,3 +63,6 @@ collections
 
 authorizations
   * [`create`](http://dev.vhx.tv/docs/api/?javascript#authorizations-create)
+
+analytics
+  * [`report`](http://dev.vhx.tv/docs/api/?javascript#analytics-report)
