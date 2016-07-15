@@ -62,7 +62,7 @@ collections
   * [`items`](http://dev.vhx.tv/docs/api?javascript#collection-items-list)
 
 authorizations
-  * [`create`](http://dev.vhx.tv/docs/api/?javascript#authorizations-create)
+  * [`create`](http://dev.vhx.tv/docs/api?javascript#authorizations-create)
 
 analytics
-  * [`report`](http://dev.vhx.tv/docs/api/?javascript#analytics-report)
+  * [`report`](http://dev.vhx.tv/docs/api?javascript#analytics-report)
