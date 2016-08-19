@@ -1,3 +1,9 @@
+### 1.5.0
+**2016-08-19**
+
+* Add analytics resources with `report` method
+* Update readme with new node scoped links
+
 ### 1.4.0
 **2016-02-18**
 

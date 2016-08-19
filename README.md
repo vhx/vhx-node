@@ -36,30 +36,33 @@ vhx.customers.create({
 ### Resources & methods
 
 products
-  * [`retrieve`](http://dev.vhx.tv/docs/api/?javascript#product-retrieve)
-  * [`all`](http://dev.vhx.tv/docs/api/?javascript#product-list)
+  * [`retrieve`](http://dev.vhx.tv/docs/api/?node#product-retrieve)
+  * [`all`](http://dev.vhx.tv/docs/api/?node#product-list)
 
 customers
-  * [`create`](http://dev.vhx.tv/docs/api/?javascript#customer-create)
-  * [`retrieve`](http://dev.vhx.tv/docs/api/?javascript#customer-retrieve)
-  * [`update`](http://dev.vhx.tv/docs/api/?javascript#customer-update)
-  * [`all`](http://dev.vhx.tv/docs/api/?javascript#customer-list)
-  * [`del`](http://dev.vhx.tv/docs/api/?javascript#customer-delete)
-  * [`addProduct`](http://dev.vhx.tv/docs/api/?javascript#customer-add-product)
-  * [`removeProduct`](http://dev.vhx.tv/docs/api/?javascript#customer-remove-product)
+  * [`create`](http://dev.vhx.tv/docs/api/?node#customer-create)
+  * [`retrieve`](http://dev.vhx.tv/docs/api/?node#customer-retrieve)
+  * [`update`](http://dev.vhx.tv/docs/api/?node#customer-update)
+  * [`all`](http://dev.vhx.tv/docs/api/?node#customer-list)
+  * [`del`](http://dev.vhx.tv/docs/api/?node#customer-delete)
+  * [`addProduct`](http://dev.vhx.tv/docs/api/?node#customer-add-product)
+  * [`removeProduct`](http://dev.vhx.tv/docs/api/?node#customer-remove-product)
 
 videos
-  * [`create`](http://dev.vhx.tv/docs/api/?javascript#videos-create)
-  * [`retrieve`](http://dev.vhx.tv/docs/api?javascript#videos-get)
-  * [`all`](http://dev.vhx.tv/docs/api?javascript#videos-list)
-  * [`files`](http://dev.vhx.tv/docs/api/?javascript#videos-list-files)
+  * [`create`](http://dev.vhx.tv/docs/api/?node#videos-create)
+  * [`retrieve`](http://dev.vhx.tv/docs/api?node#videos-get)
+  * [`all`](http://dev.vhx.tv/docs/api?node#videos-list)
+  * [`files`](http://dev.vhx.tv/docs/api/?node#videos-list-files)
 
 collections
-  * [`create`](http://dev.vhx.tv/docs/api?javascript#collections-create)
-  * [`update`](http://dev.vhx.tv/docs/api?javascript#collections-update)
-  * [`retrieve`](http://dev.vhx.tv/docs/api?javascript#collections-retrieve)
-  * [`all`](http://dev.vhx.tv/docs/api?javascript#collections-list)
-  * [`items`](http://dev.vhx.tv/docs/api?javascript#collection-items-list)
+  * [`create`](http://dev.vhx.tv/docs/api?node#collections-create)
+  * [`update`](http://dev.vhx.tv/docs/api?node#collections-update)
+  * [`retrieve`](http://dev.vhx.tv/docs/api?node#collections-retrieve)
+  * [`all`](http://dev.vhx.tv/docs/api?node#collections-list)
+  * [`items`](http://dev.vhx.tv/docs/api?node#collection-items-list)
 
 authorizations
-  * [`create`](http://dev.vhx.tv/docs/api/?javascript#authorizations-create)
+  * [`create`](http://dev.vhx.tv/docs/api?node#authorizations-create)
+
+analytics
+  * [`report`](http://dev.vhx.tv/docs/api?node#analytics-report)
