@@ -1,3 +1,8 @@
+### 1.5.1
+**2016-08-24**
+
+* Fix bug with multiple callbacks being fired during async calls to resource methods, due to improper construction of request instances (stemming from cached modules).
+
 ### 1.5.0
 **2016-08-19**
 
