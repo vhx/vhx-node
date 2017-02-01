@@ -51,6 +51,7 @@ customers
 videos
   * [`create`](http://dev.vhx.tv/docs/api/?node#videos-create)
   * [`retrieve`](http://dev.vhx.tv/docs/api?node#videos-get)
+  * [`update`](http://dev.vhx.tv/docs/api?node#videos-update)
   * [`all`](http://dev.vhx.tv/docs/api?node#videos-list)
   * [`files`](http://dev.vhx.tv/docs/api/?node#videos-list-files)
 
