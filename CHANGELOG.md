@@ -1,3 +1,8 @@
+### 1.6.0
+**2017-02-01**
+
+* Add update method for video resource.
+
 ### 1.5.1
 **2016-08-24**
 
