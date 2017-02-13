@@ -44,5 +44,9 @@
   "sub"           : true,
   "trailing"      : true,
   "white"         : false,
-  "indent"        : 2
+  "indent"        : 2,
+  "predef"        : [
+    "describe",
+    "it"
+  ]
 }
