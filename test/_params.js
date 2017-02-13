@@ -10,22 +10,21 @@ var Params = {
   name: function() { return 'Customer ' + rand(1, 100) + ' Name'; },
   email: function() { return 'customer' + rand(1, 500) + '@email.com'; },
   description: 'New Description ' + rand(1, 100),
-  site_id: '18713',
+  site_id: process.env.TEST_SITE_ID,
   product: function() {
-    var id = '14444';
-    // var id = '158';
+    var id = process.env.TEST_PRODUCT_ID;
     return (HREF) ? HREF + 'products/' + id : id;
   },
   customer: function() {
-    var id = '2041065';
+    var id = process.env.TEST_CUSTOMER_ID;
     return (HREF) ? HREF + 'customers/' + id : id;
   },
   video: function() {
-    var id = '54379';
+    var id = process.env.TEST_VIDEO_ID;
     return (HREF) ? HREF + 'videos/' + id : id;
   },
   collection: function() {
-    var id = '2017';
+    var id = process.env.TEST_COLLECTION_ID;
     return (HREF) ? HREF + 'collections/' + id : id;
   }
 };
