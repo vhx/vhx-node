@@ -1,6 +1,6 @@
 {
   "name": "vhx",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "VHX Node.js API Client",
   "keywords": [
     "vhx",
@@ -22,9 +22,18 @@
     "node": ">= v0.10.0"
   },
   "main": "lib/vhx.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "dotenv": "^4.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "nyc": "^10.1.2"
+  },
   "dependencies": {
     "request": "2.x"
+  },
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha"
   },
   "license": "MIT"
 }

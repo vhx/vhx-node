@@ -1,3 +1,10 @@
+### 1.7.0
+**2017-02-13**
+
+* Add watching resource (an alias to customers/:id/watching) with the items method.
+* Add watchlist resource (an alias to customers/:id/watchlist) with items, addItem, removeItem methods.
+* Add proper specs
+
 ### 1.6.0
 **2017-02-01**
 
