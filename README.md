@@ -27,9 +27,18 @@ Every resource method has two arguments. The first argument is an options object
 vhx.customers.create({
   email: 'customer@email.com',
   name: 'First Last'
-}, function(err, customer){
+}, function(err, customer) {
   // err, = error is false if no error occurred
   // customer = the created customer object
+});
+```
+
+Headers can be passed in as the last argument, which would either be the second or third argument depending on the method. See each individual method for specifics.
+```js
+// example video create with header
+vhx.videos.create({
+  title: 'My Video',
+}, { 'VHX-Client-IP': '0.0.0.0' }, function(err, customer) {
 });
 ```
 

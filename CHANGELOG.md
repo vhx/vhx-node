@@ -1,3 +1,8 @@
+### 1.8.0
+**2017-03-01**
+
+* Add support for padding custom headers with each request.
+
 ### 1.7.0
 **2017-02-13**
 
