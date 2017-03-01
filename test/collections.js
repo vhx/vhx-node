@@ -15,7 +15,7 @@ describe('Collections', function() {
 
   describe('List all collections', function() {
     it('it should GET all collections', function(done) {
-      vhx.collections.all({}, function(err, collections) {
+      vhx.collections.all({}, { 'VHX-X-Header': 'foo' }, function(err, collections) {
         expect(collections).to.be.a('object');
         expect(collections).to.be.property('_links');
         expect(collections).to.be.property('_embedded');
@@ -52,7 +52,7 @@ describe('Collections', function() {
   describe('Update a collection', function() {
     it('it should update a collection', function(done) {
 
-      vhx.collections.update(params.collection(), { description: params.description }, function(err, updatedCollection) {
+      vhx.collections.update(params.collection(), { description: params.description }, { 'VHX-X-Header': 'foo' }, function(err, updatedCollection) {
         expect(updatedCollection).to.be.a('object');
         expect(updatedCollection).to.be.property('_links');
         expect(updatedCollection).to.be.property('_embedded');
