@@ -19,7 +19,7 @@ describe('Analytics', function() {
         type: 'income_statement',
         from: '2016-10-01',
         to: 'today'
-      }, function(err, report) {
+      }, { 'VHX-X-Header': 'foo' }, function(err, report) {
         expect(report).to.be.a('object');
         expect(report).to.be.property('_links');
         expect(report).to.be.property('data');
@@ -64,7 +64,7 @@ describe('Analytics', function() {
         from: '2016-07-19',
         to: '2016-07-20',
         by: 'day'
-      }, function(err, report) {
+      }, { 'VHX-X-Header': 'foo' }, function(err, report) {
         expect(report).to.be.a('object');
         expect(report).to.be.property('_links');
         expect(report).to.be.property('data');
@@ -95,7 +95,7 @@ describe('Analytics', function() {
         from: '2016-07-19',
         to: '2016-07-20',
         by: 'day'
-      }, function(err, report) {
+      }, { 'VHX-X-Header': 'foo' }, function(err, report) {
         expect(report).to.be.a('object');
         expect(report).to.be.property('_links');
         expect(report).to.be.property('data');
@@ -126,7 +126,7 @@ describe('Analytics', function() {
         from: '2016-07-20',
         to: '2016-08-20',
         by: 'month'
-      }, function(err, report) {
+      }, { 'VHX-X-Header': 'foo' }, function(err, report) {
         expect(report).to.be.a('object');
         expect(report).to.be.property('_links');
         expect(report).to.be.property('data');

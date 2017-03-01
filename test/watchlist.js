@@ -30,7 +30,7 @@ describe('Watchlist', function() {
     it('it should ADD a video to customer\'s watchlist queue', function(done) {
       vhx.watchlist.addItem(params.customer(), {
         video: params.video()
-      }, function(err) {
+      }, { 'VHX-X-Header': 'foo' }, function(err) {
         expect(err).to.equal(false);
         done();
       });

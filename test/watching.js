@@ -15,7 +15,7 @@ describe('Watching', function() {
 
   describe('List all videos', function() {
     it('it should GET all videos being watched', function(done) {
-      vhx.watching.items(params.customer(), function(err, videos) {
+      vhx.watching.items(params.customer(), { 'VHX-X-Header': 'foo' }, function(err, videos) {
         expect(videos).to.be.a('object');
         expect(videos).to.be.property('_links');
         expect(videos).to.be.property('_embedded');

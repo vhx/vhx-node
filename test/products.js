@@ -28,7 +28,7 @@ describe('Products', function() {
 
   describe('Retrieve a product', function() {
       it('it should GET a single product', function(done) {
-        vhx.products.retrieve(params.product(), function(err, product) {
+        vhx.products.retrieve(params.product(), { 'VHX-X-Header': 'foo' }, function(err, product) {
           expect(product).to.be.a('object');
           expect(product).to.be.property('_links');
           expect(product).to.be.property('price');
