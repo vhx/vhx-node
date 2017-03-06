@@ -53,7 +53,6 @@ customers
   * [`retrieve`](http://dev.vhx.tv/docs/api/?node#customer-retrieve)
   * [`update`](http://dev.vhx.tv/docs/api/?node#customer-update)
   * [`all`](http://dev.vhx.tv/docs/api/?node#customer-list)
-  * [`del`](http://dev.vhx.tv/docs/api/?node#customer-delete)
   * [`addProduct`](http://dev.vhx.tv/docs/api/?node#customer-add-product)
   * [`removeProduct`](http://dev.vhx.tv/docs/api/?node#customer-remove-product)
 
