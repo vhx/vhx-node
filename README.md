@@ -2,6 +2,11 @@
 
 API applications can be created in the [VHX admin](https://www.vhx.tv/admin/platforms) or by emailing [api@vhx.tv](mailto:api@vhx.tv)
 
+### Note
+Looking for an API client that uses Promises or async/await? Try the new vhx-js client library: https://github.com/vhx/vhx-js
+
+We welcome bug reports and pull requests!
+
 ### Installation
 
 `npm install vhx`
